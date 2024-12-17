@@ -3,6 +3,7 @@ import './App.css';
 import MovieList from './MovieList';
 import Modal from 'react-modal';
 import MovieModal from './MovieModal'; 
+import Footer from './Footer'; // Importa el componente Footer
 
 Modal.setAppElement('#root'); 
 
@@ -65,7 +66,7 @@ function App() {
           onChange={handleSearchChange}
         />
       </header>
-      <main>
+      <main className="mt-4"> {/* Agrega un margen superior al main */}
         <MovieList 
           movies={movies} 
           searchTerm={searchTerm} 
@@ -77,6 +78,7 @@ function App() {
           movie={selectedMovie} 
         /> 
       </main>
+      <Footer /> {/* Agrega el componente Footer */}
     </div>
   );
 }

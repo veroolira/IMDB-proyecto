@@ -1,20 +1,20 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 
-export default function MovieList({ movies, searchTerm, onMovieSelect }) { // Recibir la prop onMovieSelect
+function MovieList({ movies, searchTerm, onMovieSelect }) {
   const filteredMovies = movies.filter((movie) =>
     movie.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
-    <ul>
+    <div className="row"> {/* Contenedor principal para las tarjetas */}
       {filteredMovies.map((movie) => (
-        <MovieCard 
-        key={movie.id} 
-        movie={movie} 
-        onMovieSelect={onMovieSelect} /> // Pasar onMovieSelect a MovieCard
+        <div className="col-md-4 mb-4" key={movie.id}> {/* Cada tarjeta ocupa 4 columnas en pantallas medianas y tiene un margen inferior */}
+          <MovieCard movie={movie} onMovieSelect={onMovieSelect} />
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
 
+export default MovieList;
