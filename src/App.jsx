@@ -10,7 +10,7 @@ Modal.setAppElement('#root');
 function App() {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedMovie, setSelectedMovie] = useState(null);   
+  const [selectedMovie, setSelectedMovie] = useState(null); 
 
   const [isModalOpen, setIsModalOpen] = useState(false); 
 
