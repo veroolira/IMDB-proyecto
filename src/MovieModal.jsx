@@ -53,8 +53,8 @@ function MovieModal({ isOpen, onClose, movie }) {
               <ReactPlayer 
                 url={`https://www.youtube.com/watch?v=${trailerKey}`} 
                 controls={true} 
-                width="560px" // Ancho fijo en píxeles
-                height="315px" // Altura fija en píxeles
+                width="100%"   // Ancho del 100% del contenedor
+                height="50%"  // Altura del 50% del contenedor
               />
             )}
             
