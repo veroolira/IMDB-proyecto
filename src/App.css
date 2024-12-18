@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; 
+}
+
+main {
+  flex: 1; 
+}
+
+footer {
+  position: fixed; /* Fija el footer en la ventana del navegador */
+  bottom: 0; /* Lo coloca en la parte inferior */
+  /* width: 50%; Ocupa todo el ancho de la pantalla */
+  margin: 0 auto; 
+}
