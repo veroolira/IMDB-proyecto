@@ -5,13 +5,13 @@ Base de datos en línea que contiene información, reseñas y rating sobre pelí
 ## Capturas de pantalla
 
 * **Pantalla de inicio:**
-![Pantalla de inicio](/images/PantallaInicio.jpeg)
+![Pantalla de inicio](/images/PantallaInicio.jpg)
 
 * **Búsqueda:**
-![Búsqueda](/images/Busqueda.jpeg)
+![Búsqueda](/images/Busqueda.jpg)
 
 * **Póster de película, reseñar y tráiler:**
-![Resultados](/images/Resultado.jpeg)
+![Resultados](/images/Resultados.jpg)
 
 ## Funcionalidades
 
