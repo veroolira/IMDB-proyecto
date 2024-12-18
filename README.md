@@ -24,23 +24,25 @@ Base de datos en línea que contiene información, reseñas y rating sobre pelí
 Esta se desarrolló en diferentes archivos que se describirán a continuación:
 
 * **App.jsx** crea la función App, donde se utiliza lo siguiente:
- ○ useState para crear la constante de las películas,
- ○ useState para crear la búsqueda de las películas,
- ○ useState(null) para dejar seleccionar la película
- ○ useState(false) para poder abrir el Modal.
- ○ useEffect para poder extraer las películas del API con un async, hay un if
+* **useState** para crear la constante de las películas
+* **useState** para crear la búsqueda de las películas
+* **useState(null)** para dejar seleccionar la película
+* **useState(false)** para poder abrir el Modal
+* **useEffect** para poder extraer las películas del API con un async, hay un if
  debajo de eso que es para buscar dentro de toda la base de datos la película
  que se ponga en el buscador
+
 * **MovieList.jsx** es el que aparece en la pantalla principal, crea una función que
- muestra la lista de tarjetas de las películas, crea un buscador en la parte superior,
- las que se muestran al abrir son las populares que hay en este momento.
-* **MovieCard.jsx** crea la tarjeta que se muestra, importa el póster, pone el nombre de
- la película debajo y al darle click abrirá una pantalla con la reseña de la película.
- ese archivo se llama MovieModal.jsx por que lo que abre es un modal
+ muestra la lista de tarjetas de las películas, crea un buscador en la parte superior, las que se muestran al abrir son las populares que hay en este momento.
+
+* **MovieCard.jsx** crea la tarjeta que se muestra, importa el póster, pone el nombre de la película debajo y al darle click abrirá una pantalla con la reseña de la película.
+  Ese archivo se llama MovieModal.jsx por que lo que abre es un modal.
+  
 * **MovieModal.jsx** esta función muestra el modal (pantalla superpuesta), contiene el
  poster,la reseña de la película , el trailer y un botón de cerrar la pantalla.
+
 * **Footer.jsx** esta función agrega los nombres de los integrantes al final de la pantalla.
- "Programa realizado por Veronica, Pilar, Itzel y Ricardo"
+ "Programa realizado por Verónica, Pilar, Itzel y Ricardo"
 
 ## Instrucciones de uso
 
