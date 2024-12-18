@@ -11,7 +11,7 @@ Base de datos en línea que contiene información, reseñas y rating sobre pelí
 ![Búsqueda](/images/Busqueda.jpg)
 
 * **Póster de película, reseñar y tráiler:**
-![Resultados](/images/Resultados.jpg)
+![Resultados](/images/Resultado.jpg)
 
 ## Funcionalidades
 
